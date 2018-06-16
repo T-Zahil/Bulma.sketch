@@ -6,8 +6,8 @@ Bulma has been developed by Jeremy Thomas <http://jgthms.com/>, released under a
 
 Bulma.sketch is released under a MIT License.
 
-Bulma version : **v0.6.1**
-Sketch version compatibility : **Sketch 48**
+Bulma version : **v0.7.1**
+Sketch version compatibility : **Sketch 50**
 
 ## How does it work?
 
@@ -27,43 +27,42 @@ Text styles (used for Titles) are not importable like Library Symbols.
 
 [Bulma ref](http://bulma.io/documentation/overview/variables/#initial-variables)
 
-| Bulma variable | Symbol path |
-|:--|:--|
-|  `$black`   |   `Insert > Bulma/colors/black`  |
-|  `$black-bis`   |   `Insert > Bulma/colors/black-bis`  |
-|  `$black-ter`   |   `Insert > Bulma/colors/black-ter`  |
-|  `$grey-darker`   |   `Insert > Bulma/colors/grey-darker`  |
-|  `$grey-dark`   |   `Insert > Bulma/colors/grey-dark`  |
-|  `$grey`   |   `Insert > Bulma/colors/grey`  |
-|  `$grey-light`   |   `Insert > Bulma/colors/grey-light`  |
-|  `$grey-lighter`   |   `Insert > Bulma/colors/grey-lighter`  |
-|  `$white-ter`   |   `Insert > Bulma/colors/white-ter`  |
-|  `$white-bis`   |   `Insert > Bulma/colors/white-bis`  |
-|  `$white`   |   `Insert > Bulma/colors/white`  |
-|  `$orange`   |   `Insert > Bulma/colors/orange`  |
-|  `$yellow`   |   `Insert > Bulma/colors/yellow`  |
-|  `$green`   |   `Insert > Bulma/colors/green`  |
-|  `$turquoise`   |   `Insert > Bulma/colors/turquoise`  |
-|  `$cyan`   |   `Insert > Bulma/colors/cyan`  |
-|  `$blue`   |   `Insert > Bulma/colors/blue`  |
-|  `$purple`   |   `Insert > Bulma/colors/purple`  |
-|  `$red`   |   `Insert > Bulma/colors/red`  |
+| Bulma variable  | Symbol path                          |
+| :-------------- | :----------------------------------- |
+| `$black`        | `Insert > Bulma/colors/black`        |
+| `$black-bis`    | `Insert > Bulma/colors/black-bis`    |
+| `$black-ter`    | `Insert > Bulma/colors/black-ter`    |
+| `$grey-darker`  | `Insert > Bulma/colors/grey-darker`  |
+| `$grey-dark`    | `Insert > Bulma/colors/grey-dark`    |
+| `$grey`         | `Insert > Bulma/colors/grey`         |
+| `$grey-light`   | `Insert > Bulma/colors/grey-light`   |
+| `$grey-lighter` | `Insert > Bulma/colors/grey-lighter` |
+| `$white-ter`    | `Insert > Bulma/colors/white-ter`    |
+| `$white-bis`    | `Insert > Bulma/colors/white-bis`    |
+| `$white`        | `Insert > Bulma/colors/white`        |
+| `$orange`       | `Insert > Bulma/colors/orange`       |
+| `$yellow`       | `Insert > Bulma/colors/yellow`       |
+| `$green`        | `Insert > Bulma/colors/green`        |
+| `$turquoise`    | `Insert > Bulma/colors/turquoise`    |
+| `$cyan`         | `Insert > Bulma/colors/cyan`         |
+| `$blue`         | `Insert > Bulma/colors/blue`         |
+| `$purple`       | `Insert > Bulma/colors/purple`       |
+| `$red`          | `Insert > Bulma/colors/red`          |
 
-#### Derived colors 
+#### Derived colors
 
 [Bulma ref](http://bulma.io/documentation/overview/variables/#derived-variables)
 
-| Bulma variable | Symbol path |
-|:--|:--|
-| `$primary` | `Insert > Bulma/colors/primary` |
-| `$info` | `Insert > Bulma/colors/info` |
-| `$link` | `Insert > Bulma/colors/link` |
-| `$success` | `Insert > Bulma/colors/success` |
-| `$warning` | `Insert > Bulma/colors/warning` |
-| `$danger` | `Insert > Bulma/colors/danger` |
-| `$light` | `Insert > Bulma/colors/light` |
-| `$dark` | `Insert > Bulma/colors/dark` |
-
+| Bulma variable | Symbol path                     |
+| :------------- | :------------------------------ |
+| `$primary`     | `Insert > Bulma/colors/primary` |
+| `$info`        | `Insert > Bulma/colors/info`    |
+| `$link`        | `Insert > Bulma/colors/link`    |
+| `$success`     | `Insert > Bulma/colors/success` |
+| `$warning`     | `Insert > Bulma/colors/warning` |
+| `$danger`      | `Insert > Bulma/colors/danger`  |
+| `$light`       | `Insert > Bulma/colors/light`   |
+| `$dark`        | `Insert > Bulma/colors/dark`    |
 
 ### Typography helpers
 
@@ -95,8 +94,8 @@ No responsive variants have been added, it wouldn't be possible due to Sketch li
 
 There are 4 size variants for 2 types of fields :
 
-- **input / select** (change), with or without a *help* element
-- **textarea**, with or without a *help* element
+- **input / select** (change), with or without a _help_ element
+- **textarea**, with or without a _help_ element
 
 The **input** field can be changed to a **select** field through the `input` select on the Overrides panel.
 
@@ -127,7 +126,6 @@ The text can be changed in the Overrides panel. Because of limitations in Sketch
 
 See the [icon element](#icon) to learn more about changing the icon displayed.
 
-
 ### Textarea
 
 [Bulma ref.](http://bulma.io/documentation/form/textarea/)
@@ -146,7 +144,7 @@ The text can be changed in the Overrides panel. Because of limitations in Sketch
 
 **A styled Select element, found at `Insert > Bulma/form/control/select`**
 
-*Multiple select is currently unavailable.*
+_Multiple select is currently unavailable._
 
 There are 4 size variants, and one variant in each size with an icon to the left.
 
@@ -156,7 +154,6 @@ The text can be changed in the Overrides panel. Because of limitations in Sketch
 
 See the [icon element](#icon) to learn more about changing the icon displayed.
 
-
 ### Radio
 
 [Bulma ref.](http://bulma.io/documentation/form/checkbox/)
@@ -165,7 +162,6 @@ See the [icon element](#icon) to learn more about changing the icon displayed.
 
 One checked variant is available.
 
-
 ### Radio
 
 [Bulma ref.](http://bulma.io/documentation/form/radio/)
@@ -173,7 +169,6 @@ One checked variant is available.
 **Radio control, found at `Insert > Bulma/form/control/radio`**
 
 One checked variant is available.
-
 
 ### File
 
@@ -184,8 +179,6 @@ One checked variant is available.
 The file upload input exists in 4 size variants, the option to display the file name (left or right), the option to display it boxed, or boxed with the file name. 20 different combinations.
 
 To display an input with the CTA and the name, you have to combine the right `file-cta` to the right `file-name`. E.g.: `form/control/file/default/file-cta has-name` and `form/control/file/default/file-name has-name`
-
-
 
 ---
 
@@ -240,7 +233,7 @@ Currently unavailable.
 
 There are 4 container variants, each container has up to 4 size variants, and each size has 8 color variants.
 
-When inserting  an icon element Symbol, you can modify the icon itself through the Override panel. Just paste the icon character, it can only work with FontAwesome icons. The icon character can be found with the Icon Font extension for Sketch.
+When inserting an icon element Symbol, you can modify the icon itself through the Override panel. Just paste the icon character, it can only work with FontAwesome icons. The icon character can be found with the Icon Font extension for Sketch.
 
 #### TODO
 
@@ -250,8 +243,6 @@ Would it be wise to get all the icons from FontAwesome as Symbols? I don't think
 
 Currently unavailable.
 
-
-
 ### Notification
 
 [Bulma ref.](http://bulma.io/documentation/elements/notification/)
@@ -260,7 +251,7 @@ Currently unavailable.
 
 There are two Symbols for this element. The background and the complete notification.
 
-How to use? Insert `Insert > Bulma/elements/notification/notification` and change the text through the Overrides panel. If you need bold & links, you'll have to *Detach from Symbol* so you can edit the text. The rest of the group will be the `notification-layout` Symbol.
+How to use? Insert `Insert > Bulma/elements/notification/notification` and change the text through the Overrides panel. If you need bold & links, you'll have to _Detach from Symbol_ so you can edit the text. The rest of the group will be the `notification-layout` Symbol.
 
 ### Progress
 
@@ -268,13 +259,11 @@ How to use? Insert `Insert > Bulma/elements/notification/notification` and chang
 
 **A progress bar, found at `Insert > Bulma/elements/progress`. Exists in 4 sizes.**
 
-You can change the colors of the progress and the background through the Overrides panel. If you need to change the progress width, you'll have to *Detach from Symbol*.
-
+You can change the colors of the progress and the background through the Overrides panel. If you need to change the progress width, you'll have to _Detach from Symbol_.
 
 ### Table
 
 Currently unavailable.
-
 
 ### Tag
 
@@ -293,9 +282,6 @@ Each of these Symbols can be customised via the Overrides panel :
 - **background** to change background color via a color Symbol
 - **delete** if it's `has-delete` tag type, not really an useful override
 
-
-
-
 ### Title
 
 [Bulma ref.](http://bulma.io/documentation/elements/title/)
@@ -311,7 +297,12 @@ Each of these Symbols can be customised via the Overrides panel :
 
 ## Components
 
+### Card
+
+[Bulma ref.](https://bulma.io/documentation/components/card/)
+
+Static element, for the moment.
+
 ### TODO :
 
-Everything
-
+Everything else
